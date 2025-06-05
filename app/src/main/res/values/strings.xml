@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">Schumann Echoes</string>
+    <string name="english_flag">English Flag</string>
+    <string name="german_flag">German Flag</string>
+    <string name="back">Back</string>
+    <string name="arrow">Arrow</string>
+    <string name="log_in">Log in</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sight1_info">
+In 1808, August Schumann moved with his family and publishing house into this building located at the main market square. It was in the corner room on the first floor that Robert Schumann was born on June 8, 1810.
+
+Due to structural decay, the house was torn down in 1955 and reconstructed to match the original design in 1956. Today, it is home to the Robert Schumann House, a museum dedicated to the composer\'s life and work. The facility includes eight exhibition rooms, a chamber music hall, and an archive that holds the world’s largest collection of original manuscripts by Robert and Clara Schumann. It is widely recognized as one of the most beautiful musician museums in Germany.
+</string>
+
+    <string name="sight2_info">
+At the site of today’s Jacob-Leupold Building of the University of Applied Sciences Zwickau once stood the inn and later hotel "Zur Grünen Tanne". It was a popular meeting place in Zwickau, but was destroyed during World War II.
+
+Robert Schumann frequented the establishment during his school years and again during later visits to his hometown. He attended concerts hosted by the Casino Society here. On December 6, 1835, Clara Wieck, his future wife, performed a concert in the hall of this hotel.
+</string>
+
+    <string name="sight3_info">
+The Grünhain Chapel is a remnant of the former monastic economic complex from Grünhain. Following secularization, the Latin school of Zwickau moved into the building in 1548. Later converted into a grammar school (Lyceum), it was remodeled in 1955.
+
+A plaque at the entrance commemorates that Robert Schumann studied here from 1820 to 1828. Among its prominent educators was Georgius Agricola, a pioneer of mining sciences.
+</string>
+
+    <string name="sight4_info">
+The Priest Houses consist of four medieval homes built between the 13th and 15th centuries. They served as residences for clergy and educators and were associated with notable figures in education, music, and literature.
+
+Johann Gottfried Kuntsch, Schumann’s first piano teacher and organist at St. Mary’s, lived here. Today, the buildings house a city history museum.
+</string>
+
+    <string name="sight5_info">
+St. Mary’s Cathedral is a late Gothic hall church with a notable neo-Gothic redesign from the 19th century. Robert Schumann was baptized here on June 14, 1810.
+
+At the age of eleven, he performed as a pianist during a concert in the church. He later referred to it as one of the most remarkable buildings in Saxony—dark and fantastical in appearance.
+</string>
+
+    <string name="sight6_info">
+The inn "Zum Großen Christoph", later known as "Zur Stadt Dresden", was a popular meeting spot and post station. It hosted the local post office from 1817 to 1841, run by Johann Wilhelm von Schlegel, a friend of Robert Schumann.
+
+Starting in 1823, Schumann participated in chamber music evenings held at the inn.
+</string>
+
+    <string name="sight7_info">
+Zwickau’s Town Hall was originally constructed around 1403 and later remodeled in both Baroque and neo-Gothic styles. The wife of then-Mayor Ruppius served as Robert Schumann’s godmother and cared for him for two and a half years following his father’s death in 1813.
+</string>
+
+    <string name="sight8_info">
+The Lion Pharmacy was one of Germany’s oldest pharmacies, established in the 16th century. The Schumann family had close ties to the pharmacist August Laurentius.
+
+The adjoining Herb Vault was used for storing medicinal herbs and remedies.
+</string>
+
+    <string name="sight9_info">
+The Gewandhaus, built between 1522 and 1525 as a guildhall for cloth makers, was converted into a theater in 1823. Robert Schumann experienced formative musical performances here.
+
+Several of his early compositions premiered in this venue, which also hosted the first Schumann Festival in 1847.
+</string>
+
+    <string name="sight10_info">
+The inn was owned during Schumann’s youth by the father of Ida Stölzel, his first love. In December 1835, Clara Wieck stayed here during a concert visit, and it was here that she and Robert Schumann shared their second kiss.
+</string>
+
+    <string name="sight11_info">
+On June 8, 1901, the monument honoring Robert Schumann was ceremoniously unveiled. Present were his daughters, several grandchildren, and prominent musical friends such as Carl Reinecke and Joseph Joachim.
+
+The statue was created by Leipzig sculptor Johannes Hartmann.
+</string>
+
+    <string name="sight12_info">
+In 1817, the Schumann family moved into a house at Amtsgasse 550, today known as Alter Steinweg. It was here that Robert wrote his first poems and musical compositions.
+
+He also founded a student orchestra and staged plays with his brothers. The house was destroyed in WWII, but its former location is now marked.
+</string>
+
+    <string name="sight13_info">
+Originally expanded into a Renaissance castle in the 16th century, Osterstein later became a prison facility. The daughter of director Friedrich Moritz von Rohrscheidt performed the Peri in Schumann’s oratorio in 1846.
+
+From 1910, Martin Kreisig, the son of a Schumann student, led the development of a Schumann museum on site.
+</string>
+
+    <string name="sight14_info">
+From the Paradies Bridge, visitors can see the Brückenberg, a popular leisure spot in Schumann’s time. On July 11, 1847, an open-air concert was held here in honor of Robert and Clara Schumann.
+
+The nearby beer cellars and wooden pavilions were often used for music and dancing.
+</string>
+    <string name="sight1_title">"Robert Schumann House"</string>
+    <string name="sight2_title">"Hotel 'Zur grünen Tanne'"</string>
+    <string name="sight3_title">"grunhain chapel and layceum"</string>
+    <string name="sight4_title">"Priest Houses"</string>
+    <string name="sight5_title">"St. Mary's Cathedral"</string>
+    <string name="sight6_title">"Inn 'Zum Großen Christoph'"</string>
+    <string name="sight7_title">"Town Hall"</string>
+    <string name="sight8_title">"lion pharmacy and herb vault"</string>
+    <string name="sight9_title">"Gewandhaus"</string>
+    <string name="sight10_title">"Inn 'Zum Goldnen Anker'"</string>
+    <string name="sight11_title">"Robert Schumann Monument"</string>
+    <string name="sight12_title">"Schumann's Youth Home"</string>
+    <string name="sight13_title">"Osterstein Castle"</string>
+    <string name="sight14_title">"Paradies Bridge"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="categories">
+        <item>Category: All</item>
+        <item>Music</item>
+        <item>Architecture</item>
+    </string-array>
+    <string name="nav_home">Home</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_Rewards">Quiz</string>
+    <string name="nav_sights">Sights</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="settings">Settings</string>
+    <string name="rewards">Rewards</string>
+    <string name="recommendationsTitle">Recommendations for today</string>
+    <string name="language">Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="account">Account</string>
+    <string name="help">Help and Support</string>
+    <string name="about">About</string>
+    <string name="sightInfoHeader">Sight Information</string>
+    <string name="sightstoolbarTitle">sights</string>
+    <string name="resultTitle">Rewards</string>
+    <string name="favtoolbarTitle">Favorites</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="mode_array">
+        <item>Walking</item>
+        <item>Driving</item>
+        <item>Bicycling</item>
+        <item>Transit</item>
+    </string-array>
+    <string-array name="questions_en">
+        <item>(Robert Schumann House – Geburtshaus)\nWhat can you discover at the Robert Schumann House on Hauptmarkt that dates back to his childhood?</item>
+        <item>(Jakobskapelle – Godmother\'s Home)\nWhy is the Jakob Chapel in Zwickau a significant place from Schumann’s early childhood?</item>
+        <item>(Amtsgasse – Early Compositions)\nWhat did Robert Schumann do in the house on Amtsgasse before it was destroyed in WWII?</item>
+    </string-array>
+    <string-array name="answers1_en">
+        <item>His first violin</item>
+        <item>His original square piano</item>
+        <item>His school uniform</item>
+    </string-array>
+    <string-array name="answers2_en">
+        <item>He learned to play the organ there</item>
+        <item>He lived there with his godmother, the mayor’s wife</item>
+        <item>He gave his first concert there</item>
+    </string-array>
+    <string-array name="answers3_en">
+        <item> He founded a student orchestra there</item>
+        <item>He opened a music shop</item>
+        <item>He composed his first symphony</item>
+    </string-array>
+    <!-- In values/strings.xml -->
+    <string-array name="questions_de">
+        <item>dummy</item>
+    </string-array>
+    <string-array name="answers1_de">
+        <item>dummy</item>
+    </string-array>
+    <string-array name="answers2_de">
+        <item>dummy</item>
+    </string-array>
+    <string-array name="answers3_de">
+        <item>dummy</item>
+    </string-array>
+    <string name="question_1">What can you discover at the Robert Schumann House on Hauptmarkt that dates back to his childhood?</string>
+    <string name="question_2">Why is the Jakob Chapel in Zwickau a significant place from Schumann’s early
+childhood? </string>
+    <string name="question_3">What did Robert Schumann do in the house on Amtsgasse before it was destroyed in
+WWII?</string>
+    <string name="answer_1_1"> His first violin</string>
+    <string name="answer_1_2"> His original square piano</string>
+    <string name="answer_1_3"> His school uniform</string>
+    <string name="answer_2_1">He learned to play the organ there</string>
+    <string name="answer_2_2"> He lived there with his godmother, the mayor’s wife</string>
+    <string name="answer_2_3"> He gave his first concert there</string>
+    <string name="answer_3_1"> He founded a student orchestra there</string>
+    <string name="answer_3_2">He opened a music shop </string>
+    <string name="answer_3_3"> He composed his first symphony</string>
+    <string name="submit">submit</string>
+    <string name="next">next</string>
+    <string name="result_message">You correctly identified %1$d out of %2$d statements.</string>
+    <string name="locations_count_message">Congratulations! You have visited %1$d out of %2$d locations.</string>
+    <string name="Unvisited_Locations">Unvisited Locations</string>
+    <string name="Visited_Locations">Visited Locations</string>
+</resources>

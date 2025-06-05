@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="custom_red">#FF0000</color>
+    <color name="custom">#A86523</color>
+    <color name="custom_brown">#4E1F00</color>
+    <color name="custom_light_yellow">#FBF3C1</color>
+    <color name="custom_blue">#547792</color>
+    <color name="light_gray">#F1F1F1</color>
+    <color name="custom_light_green">#C8E6C9</color>
+    <color name="dark_gray">#E0E0E0</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources>

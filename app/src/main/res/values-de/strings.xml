@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Schumann Echoes</string>
+    <string name="back">Back</string>
+    <string name="arrow">Arrow</string>
+    <string name="english_flag">English Flag</string>
+    <string name="german_flag">German Flag</string>
+    <string name="log_in">Log out</string>
+    <string name="sight1_info">
+Im Jahr 1808 zog August Schumann mit seiner Familie und der Verlagsbuchhandlung in dieses Haus am Hauptmarkt. Hier wurde am 8. Juni 1810 im Eckzimmer des ersten Obergeschosses Robert Schumann geboren.
+
+Das Gebäude wurde 1955 wegen Baufälligkeit abgerissen und 1956 originalgetreu wieder aufgebaut. Seitdem beherbergt es das Robert-Schumann-Haus, das als Museum dem Leben und Werk des Komponisten gewidmet ist. Es umfasst acht Ausstellungsräume, einen Kammermusiksaal und ein umfangreiches Archiv mit der weltweit größten Sammlung an Originalhandschriften von Robert und Clara Schumann. Es gilt als eines der schönsten Musikermuseen Deutschlands.
+</string>
+
+    <string name="sight2_info">
+An der Stelle des heutigen Jacob-Leupold-Baus der Westsächsischen Hochschule befand sich einst der Gasthof und später das Hotel „Zur Grünen Tanne“. Es war ein beliebter Treffpunkt in Zwickau, das im Zweiten Weltkrieg zerstört wurde.
+
+Robert Schumann besuchte dieses Haus sowohl als Gymnasiast als auch bei späteren Aufenthalten in seiner Heimatstadt. Hier nahm er an Veranstaltungen der Casinogesellschaft teil. Am 6. Dezember 1835 gab Clara Wieck, seine spätere Ehefrau, ein Konzert im Saal dieses Hauses.
+</string>
+
+    <string name="sight3_info">
+Die Grünhainer Kapelle ist ein Überbleibsel des ehemaligen Wirtschaftshofes des Klosters Grünhain. Nach der Säkularisation zog 1548 die Zwickauer Lateinschule in das Gebäude ein. Sie wurde später als Gymnasium (Lyzeum) genutzt und 1955 umgebaut.
+
+Eine Tafel erinnert daran, dass Robert Schumann hier von 1820 bis 1828 Schüler war. Zu den bedeutenden Lehrern dieser Schule gehörte Georgius Agricola, ein Pionier der Montanwissenschaften.
+</string>
+
+    <string name="sight4_info">
+Die Priesterhäuser sind vier mittelalterliche Wohnhäuser, die zwischen dem 13. und 15. Jahrhundert errichtet wurden. Sie dienten als Wohnsitz für Geistliche und Lehrer und waren Wirkungsstätte bedeutender Persönlichkeiten aus Bildung, Musik und Literatur.
+
+Hier wohnte auch Johann Gottfried Kuntsch, Schumanns erster Klavierlehrer und Organist an St. Marien. Heute beherbergen die Häuser ein stadtgeschichtliches Museum.
+</string>
+
+    <string name="sight5_info">
+Der Dom St. Marien ist eine spätgotische Hallenkirche mit bemerkenswerter neogotischer Umgestaltung im 19. Jahrhundert. Hier wurde Robert Schumann am 14. Juni 1810 getauft.
+
+Im Alter von elf Jahren trat er hier als Pianist auf. Später beschrieb er das Gotteshaus als eines der merkwürdigsten Gebäude Sachsens – dunkel und phantastisch anmutend.
+</string>
+
+    <string name="sight6_info">
+Der Gasthof „Zum Großen Christoph“, später „Zur Stadt Dresden“, war ein beliebter Treffpunkt und Poststation. Von 1817 bis 1841 war hier die Postmeisterei untergebracht, geleitet von Johann Wilhelm von Schlegel, einem Freund Schumanns.
+
+Robert Schumann nahm hier ab 1823 an musikalischen Abenden teil.
+</string>
+
+    <string name="sight7_info">
+Das Zwickauer Rathaus wurde um 1403 errichtet und mehrfach umgebaut, unter anderem im Barockstil und später neogotisch.
+
+Die Frau des damaligen Bürgermeisters Ruppius war Schumanns Patin und zog ihn nach dem Tod seines Vaters ab 1813 zweieinhalb Jahre lang auf.
+</string>
+
+    <string name="sight8_info">
+Die Löwenapotheke war eine der ältesten Apotheken Deutschlands, gegründet im 16. Jahrhundert. Die Familie Schumann war eng mit dem Apotheker August Laurentius befreundet.
+
+Das Kräutergewölbe wurde zur Lagerung von Heilkräutern und Arzneien genutzt.
+</string>
+
+    <string name="sight9_info">
+Das Gewandhaus wurde zwischen 1522 und 1525 als Zunfthaus für Tuchmacher errichtet. Ab 1823 diente es als Theater, in dem Robert Schumann wichtige musikalische Eindrücke sammelte.
+
+Hier wurden seine Jugendwerke uraufgeführt und 1847 fand das erste Schumannfest statt.
+</string>
+
+    <string name="sight10_info">
+Der Gasthof war zur Zeit Schumanns im Besitz von Ida Stölzels Vater, seiner ersten Jugendliebe. 1835 kam es hier zum zweiten Kuss zwischen Robert Schumann und Clara Wieck während ihres Konzertaufenthaltes in Zwickau.
+</string>
+
+    <string name="sight11_info">
+Am 8. Juni 1901 wurde das Denkmal zu Ehren Robert Schumanns feierlich enthüllt. Anwesend waren seine Töchter, mehrere Enkel sowie bedeutende Musikerfreunde wie Carl Reinecke und Joseph Joachim.
+
+Das Denkmal wurde vom Leipziger Bildhauer Johannes Hartmann geschaffen.
+</string>
+
+    <string name="sight12_info">
+1817 zog die Familie Schumann in ein Haus in der Amtsgasse 550, heute Alter Steinweg. Hier entstanden Roberts erste Kompositionen und Gedichte.
+
+Er gründete ein Schülerorchester und führte mit seinen Brüdern Theaterstücke auf. Das Haus wurde im Zweiten Weltkrieg zerstört, die Stelle ist heute gekennzeichnet.
+</string>
+
+    <string name="sight13_info">
+Das Schloss wurde im 16. Jahrhundert zum Renaissanceschloss ausgebaut und später als Strafanstalt genutzt. Die Tochter des Direktors Friedrich Moritz von Rohrscheidt sang 1846 die Peri in Schumanns Oratorium.
+
+Ab 1910 entstand hier ein Schumann-Museum unter der Leitung von Martin Kreisig.
+</string>
+
+    <string name="sight14_info">
+Von der Paradiesbrücke blickt man auf den Brückenberg, ein beliebtes Ausflugsziel in Schumanns Zeit. Am 11. Juli 1847 wurde dort zu Ehren von Robert und Clara Schumann ein Freiluftkonzert veranstaltet.
+
+Die Bierkeller und Holzpavillons der Umgebung wurden für Musik und Tanz genutzt.
+</string>
+    <string name="sight1_title">" Robert-Schumann-Haus"</string>
+    <string name="sight2_title">" Hotel „Zur grünen Tanne“"</string>
+    <string name="sight3_title">" „Grünhainer Kapelle“ und Lyzeum "</string>
+    <string name="sight4_title">" „Priesterhäuser“"</string>
+    <string name="sight5_title">" Dom St. Marien "</string>
+    <string name="sight6_title">"Gasthof „Zum Großen Christoph“"</string>
+    <string name="sight7_title">"Rathaus"</string>
+    <string name="sight8_title">" „Löwenapotheke“ und „Kräutergewölbe“ "</string>
+    <string name="sight9_title">"Gewandhaus"</string>
+    <string name="sight10_title">"Gasthof „Zum Goldnen Anker“ "</string>
+    <string name="sight11_title">" Robert-Schumann-Denkmal "</string>
+    <string name="sight12_title">" Schumanns Jugendhaus"</string>
+    <string name="sight13_title">"  Schloss Osterstein"</string>
+    <string name="sight14_title">"Paradiesbrücke"</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_Rewards">Challenges</string>
+    <string name="nav_sights">Aussichten</string>
+    <string name="nav_favorites">Favoriten</string>
+    <string name="settings">Einstellungen</string>
+    <string name="rewards">Belohnungen</string>
+    <string name="recommendationsTitle">Empfehlungen für heute</string>
+    <string name="language">Sprache</string>
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="account">Konto</string>
+    <string name="help">Hilfe und Support</string>
+    <string name="about">über uns</string>
+    <string name="sightInfoHeader">Information zur Sehenswürdigkeit</string>
+    <string name="sightstoolbarTitle">Aussichten</string>
+    <string name="resultTitle">Belohnungen</string>
+    <string name="favtoolbarTitle">Favoriten</string>
+    <string-array name="questions_de">
+        <item>(Robert-Schumann-Haus – Geburtshaus)\nWas kann man im Robert-Schumann-Haus am Hauptmarkt entdecken, das aus seiner Kindheit stammt?</item>
+        <item>(Jakobskapelle – Patenheim)\nWarum ist die Jakobskapelle in Zwickau ein bedeutender Ort aus Schumanns früher Kindheit?</item>
+        <item>(Amtsgasse – Frühe Kompositionen)\nWas tat Robert Schumann im Haus in der Amtsgasse, bevor es im Zweiten Weltkrieg zerstört wurde?</item>
+    </string-array>
+    <string-array name="answers1_de">
+        <item>Seine erste Geige</item>
+        <item>Sein originales Tafelklavier</item>
+        <item>Seine Schuluniform</item>
+    </string-array>
+    <string-array name="answers2_de">
+        <item>Dort lernte er das Orgelspiel</item>
+        <item>Dort lebte er bei seiner Patin, der Bürgermeistergattin </item>
+        <item>Dort fand sein erstes Konzert statt</item>
+    </string-array>
+    <string-array name="answers3_de">
+        <item>Er gründete dort ein Schülerorchester</item>
+        <item>Er eröffnete ein Musikgeschäft</item>
+        <item>Er schrieb seine erste Sinfonie</item>
+    </string-array>
+    <string name="question_1">Was kannst du im Robert-Schumann-Haus am Hauptmarkt entdecken, das direkt aus
+Schumanns Kindheit stammt? </string>
+    <string name="question_2">Warum ist die Jakobskapelle in Zwickau ein bedeutender Ort in Schumanns früher
+Kindheit?</string>
+    <string name="question_3">Was tat Robert Schumann im Haus an der Amtsgasse, bevor es im Zweiten Weltkrieg
+zerstört wurde? </string>
+    <string name="answer_1_1">Seine erste Geige</string>
+    <string name="answer_1_2">Sein originales Tafelklavier </string>
+    <string name="answer_1_3">Seine Schuluniform </string>
+    <string name="answer_2_1">Dort lernte er das Orgelspiel</string>
+    <string name="answer_2_2">Dort lebte er bei seiner Patin, der Bürgermeistergattin</string>
+    <string name="answer_2_3">Dort fand sein erstes Konzert statt</string>
+    <string name="answer_3_1">Er gründete dort ein Schülerorchester</string>
+    <string name="answer_3_2">Er eröffnete ein Musikgeschäft </string>
+    <string name="answer_3_3">Er schrieb seine erste Sinfonie </string>
+    <string name="submit">Einreichen</string>
+    <string name="next">Nächste</string>
+    <string name="result_message">Sie haben %1$d von %2$d Aussagen richtig identifiziert.</string>
+    <string name="locations_count_message">Herzlichen Glückwunsch! Sie haben %1$d von %2$d Orten besucht.</string>
+    <string name="Unvisited_Locations">Unbesuchte Orte</string>
+    <string name="Visited_Locations">Besuchte Orte</string>
+</resources>

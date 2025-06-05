@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Title Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingVertical="8dp">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_back"
+            android:contentDescription="@string/back" />
+
+        <TextView
+            android:id="@+id/settings_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Settings"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <!-- Settings Items -->
+    <LinearLayout
+        android:id="@+id/language_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:background="?attr/selectableItemBackground"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_language"
+            android:contentDescription="@string/language" />
+
+        <TextView
+            android:id="@+id/language_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:text="Language"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_arrow_right"
+            android:contentDescription="@string/arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/account_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:background="?attr/selectableItemBackground"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_account"
+            android:contentDescription="@string/account" />
+
+        <TextView
+            android:id="@+id/account_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:text="Account"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_arrow_right"
+            android:contentDescription="@string/arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/help_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:background="?attr/selectableItemBackground"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_help"
+            android:contentDescription="@string/help" />
+
+        <TextView
+            android:id="@+id/help_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:text="Help and Support"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_arrow_right"
+            android:contentDescription="@string/arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/about_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:background="?attr/selectableItemBackground"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_about"
+            android:contentDescription="@string/about" />
+
+        <TextView
+            android:id="@+id/about_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:text="About"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_arrow_right"
+            android:contentDescription="@string/arrow" />
+    </LinearLayout>
+
+</LinearLayout>

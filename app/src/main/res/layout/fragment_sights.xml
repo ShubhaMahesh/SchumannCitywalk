@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+    <!-- Dropdown for Categories -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/sightsToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/sightstoolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sights"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:background="#D3D3D3"
+        android:spinnerMode="dropdown" />
+
+    <!-- RecyclerView for List of Sights -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sightsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        android:paddingBottom="8dp" />
+</LinearLayout>

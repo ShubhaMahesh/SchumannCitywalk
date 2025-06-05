@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <!-- Top Image with Overlay -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/topImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/zwickau" />
+
+        <TextView
+            android:id="@+id/schumannEchoesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schumann Echoes"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="14dp"
+            android:textColor="@android:color/white"/>
+
+        <!-- Overlay for Weather and Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+
+            <TextView
+                android:id="@+id/weatherInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0°C in Zwickau"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Left Button -->
+                <LinearLayout
+                    android:id="@+id/settingsButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:background="@color/custom"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <!-- Icon for the button -->
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        app:tint="@android:color/white"
+                        android:src="@drawable/ic_setting"
+                        android:layout_marginEnd="8dp" />
+
+                    <!-- Text for the button -->
+                    <TextView
+                        android:id="@+id/settingsText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Settings"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <!-- Right Button -->
+                <LinearLayout
+                    android:id="@+id/accountButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:background="@color/custom"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_alignParentEnd="true">
+
+                    <!-- Icon for the button -->
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_trophy"
+                        android:layout_marginEnd="8dp" />
+
+                    <!-- Text for the button -->
+                    <TextView
+                        android:id="@+id/rewardsText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rewards"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/recommendationsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recommendations for today"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp" />
+
+        <FrameLayout
+            android:id="@+id/notificationButtonContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true">
+
+            <ImageButton
+                android:id="@+id/notificationButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_notifications"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/notifications"/>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/notificationAnim"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                app:lottie_autoPlay="false"
+                app:lottie_loop="false"/>
+        </FrameLayout>
+    </RelativeLayout>
+
+
+
+    <!-- Recommendations Title -->
+
+
+    <!-- Scrollable List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recommendationsRecyclerView"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp" />
+
+    <!-- Bottom Language Button -->
+
+</LinearLayout>

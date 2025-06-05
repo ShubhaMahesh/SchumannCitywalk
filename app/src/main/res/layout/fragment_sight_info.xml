@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="32dp"
+        android:background="@android:color/white">
+
+        <!-- Top Image -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/sightImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="top|start"
+                android:layout_margin="16dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_back"
+                android:contentDescription="@string/back"
+                app:tint="@android:color/black" />
+            <!-- Favorite Icon -->
+            <ImageView
+                android:id="@+id/favIcon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="16dp"
+                android:src="@drawable/ic_fav_border" />
+
+            <!-- Overlay for Weather and Favorite Button -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/weatherInfoText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5°C in Zwickau"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- Sight Title and Information -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/sightTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Robert-Schumann-Denkmal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="16dp"
+                android:layout_gravity="center_vertical" />
+
+            <ImageButton
+                android:id="@+id/playMusicButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_music_off"
+                android:background="@android:color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/sightInfoHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sight Information"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:paddingHorizontal="16dp"
+            android:paddingBottom="8dp" />
+
+
+        <TextView
+            android:id="@+id/sightDescriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@drawable/border"
+            android:text="Detailed description goes here..."
+            android:textSize="14sp"
+            android:textAlignment="viewStart"
+            android:lineSpacingExtra="6dp"
+            android:justificationMode="inter_word" />
+
+        <!-- View Map Button -->
+        <Button
+            android:id="@+id/viewMapButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="View Map"
+            android:backgroundTint="@color/custom_light_yellow"
+            android:textColor="@android:color/black"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
