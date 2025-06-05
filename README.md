@@ -1,6 +1,6 @@
 # SchumannCitywalk
 
-An Android app to explore notable sights related to Schumann, music, and architecture in Leipzig.
+An Android app to explore notable sights related to Schumann, music, and architecture in Zwickau.
 
 ## Features
 
@@ -43,4 +43,5 @@ An Android app to explore notable sights related to Schumann, music, and archite
   - `fragments/SightInfoFragment.java` - Detail view for each sight
   - `fragments/MapFragment.java` - Map view for all sights
 - `app/src/main/res/layout/` - UI layouts
+_Map Api key is removed
 
